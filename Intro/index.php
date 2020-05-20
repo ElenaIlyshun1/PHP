@@ -14,26 +14,26 @@
 // foreach($_SERVER as $key)
 
 
-$email = "";
-$pass = "";
+// $email = "";
+// $pass = "";
 
-if (!empty($_POST)) {
-    $email = $_POST['email'];
-    $pass = $_POST['password'];
-    if (isset($_POST['check'])) {
-        $check = $_POST['check'];
-        echo $check;
-    }
-}
-
-
+// if (!empty($_POST)) {
+//     $email = $_POST['email'];
+//     $pass = $_POST['password'];
+//     if (isset($_POST['check'])) {
+//         $check = $_POST['check'];
+//         echo $check;
+//     }
+// }
 
 
-// echo "Email = " . $email;
-// echo "Password = " . $pass;
 
-require_once "views/header.html";
-require_once "views/main.html";
-require_once "views/footer.html";
+
+// // echo "Email = " . $email;
+// // echo "Password = " . $pass;
+
+// require_once "views/header.html";
+// require_once "views/main.html";
+// require_once "views/footer.html";
 
 // print_r($_GET);
