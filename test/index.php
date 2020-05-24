@@ -5,8 +5,11 @@ $title = "php title";
 require "header.php";
 //require "coments.php";
 require "footer.php";
+include "redirect.php";
 //include "function.php";
-include "string_function.php";
+//include "function_date.php";
+//include "file.php";
+//include "string_function.php";
 //require_once "fundation.php";
 /////////якщо не знайдено файл, то програма продовжується
 //include "header.php";
