@@ -1,3 +1,4 @@
+<?php include('server.php');?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -16,6 +17,7 @@
                     <h2>Register</h2>
                 </div>
                 <form action="register.php">
+                    
                     <div class="input-group">
                         <label>Username</label>
                         <input type="text" name="username">
@@ -45,13 +47,9 @@
                         </p>
                     </div>
                 </form>
-
             </div>
-
         </div>
-
     </form>
-
 </body>
 
 </html>
